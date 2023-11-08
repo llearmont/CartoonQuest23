@@ -1,0 +1,141 @@
+* {
+    color: white;
+}
+
+main a {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+header {
+    position: absolute;
+    background: #867C70;
+}
+
+body {
+    background: #867C70;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.bkg-container {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.bkg-container img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    position: absolute;
+    top: 5%;
+    left: 18%;
+    background-color: rgba(96, 56, 19, 0.6);
+    transition: 0.5s;
+}
+
+.tlw {
+    position: absolute;
+    top: 2%;
+    left: 48%;
+    width: 175px;
+    background-color: rgba(75, 178, 220, 0.75);
+    transition: 0.5s;
+}
+
+.toh {
+    position: absolute;
+    top: 25%;
+    left: 74%;
+    width: 185px;
+    background-color: rgba(176, 93, 103, 0.75);
+    transition: 0.5s;
+}
+
+.nimona {
+    position: absolute;
+    top: 64%;
+    left: 84%;
+    background-color: rgba(210, 143, 167, 0.75);
+    transition: 0.5s;
+}
+
+.ats {
+    position: absolute;
+    top: 72%;
+    left: 32%;
+    width: 225px;
+    background-color: rgba(62, 70, 100, 0.6);
+    transition: 0.5s;
+}
+
+.elemental {
+    position: absolute;
+    top: 62%;
+    left: 8%;
+    background-color: rgba(83, 34, 211, 0.75);
+    transition: 0.5s;
+}
+
+.button {
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    border-width: 3px;
+    text-decoration: none;
+    border-radius: 15px;
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    transition: 0.5s;
+}
+
+.button:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+}
+
+.home:hover {
+    background-color: rgba(96, 56, 19, 1);
+}
+
+.tlw:hover {
+    background-color: rgba(75, 178, 220, 1);
+}
+
+.toh:hover {
+    background-color: rgba(176, 93, 103, 1);
+}
+
+.nimona:hover {
+    background-color: rgba(210, 143, 167, 1);
+}
+
+.ats:hover {
+    background-color: rgba(62, 70, 100, 1);
+}
+
+.elemental:hover {
+    background-color: rgba(83, 34, 211, 1);
+}
+
+footer {
+    background: #867C70;
+}

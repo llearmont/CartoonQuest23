@@ -1,0 +1,46 @@
+header {
+    background: #2D6E88;
+}
+
+body {
+    background: #2D6E88;
+}
+
+.content {
+    margin-top: 50%;
+}
+
+.content h3,
+.content h4 {
+    padding-top: 10px;
+    width: 100%;
+    background-color: #804494;
+    border-color: #804494;
+    border-style: solid;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0;
+    text-align: left;
+}
+
+p {
+    padding: 15px;
+    margin-top: 0;
+    width: 100%;
+    background-color: #9c52b4;
+    border-color: #9c52b4;
+    border-style: solid;
+    border-radius: 0px 0px 15px 15px;
+    text-align: left;
+}
+
+img.horiz {
+    border-color: #9c52b4;
+}
+
+.horiz {
+    background-color: #804494;
+}
+
+.next {
+    background: #804494;
+}
